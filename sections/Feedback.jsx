@@ -15,7 +15,7 @@ const Feedback = () => (
       <motion.div 
         variants={fadeIn('right', 'tween', 0.2, 1)}
         className="flex-[0.5] lg:max-w-[370px] flex justify-end flex-col gradient-05 sm:p-8 p-4 
-        rounded-[32px] border-[1px] border-[#6a6a6a] relative">
+        rounded-[1rem] border-[1px] border-[#6a6a6a] relative">
           <div className="feedback-gradient" />
           <div>
             <h4 className="font-bold text-[26px] sm:text-[32px] sm:leading-[40px] leading-[36px] text-white">Tony</h4>
@@ -23,7 +23,7 @@ const Feedback = () => (
           </div>
 
             <p 
-            className="mt-[24px] font-normal sm:text-[24px] text-[18px] sm:leading-[45px] leading-[39px] text-secondary-white">
+            className="mt-[24px] font-normal sm:text-[1.25rem] text-[18px] sm:leading-[45px] leading-[39px] text-secondary-white">
               "With the development of today's technology, metaversus is very useful for today's work 
               or can be called web 3.0. By using metaversus, you can use it as anything."</p>
         </motion.div>
@@ -31,7 +31,7 @@ const Feedback = () => (
         variants={fadeIn('right', 'tween', 0.2, 1)}
         className="relative flex-1 flex justify-center items-center">
           <img src="/planet-09.png" alt="planet-09"
-            className="w-full lg:h-[610px] h-auto min-h-[210px] object-cover rounded-[40px]" />
+            className="w-full lg:h-[610px] h-auto min-h-[210px] object-cover rounded-[1rem]" />
             <motion.div
               variants={zoomIn(0.4, 1)}
               className="lg:block hidden absolute -left-[10%] top-[3%]">
